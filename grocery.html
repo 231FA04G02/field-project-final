@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Grocery Store By Batch no 7</title>
+    <link rel="icon" type="image/icon" href="favicon.PNG">
+    <!-- code for font awsom cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- code for link css file  -->
+    <link rel="stylesheet" href="grocery.css">
+</head>
+<body>
+   <!-- hader section  -->
+    <header class="hader">
+    <a href="#" class="logo"><i class="fa fa-shopping-basket" ></i>Grocery</a>
+    <nav class="navbar">
+        <a href="#home ">home</a>
+        <a href="#features ">Feature</a>
+        <a href="#products ">Products</a>
+        <a href="#Catogery ">Catogery</a>
+        <a href="#Reivew ">Reivew</a>
+        <a href="#Blog ">Blog</a>
+    </nav>
+    
+    <div class="icons">
+        <div class="fa fa-bars" id="menu-btn"></div>
+        <div class="fa fa-search" id="search-btn"></div>
+        <div class="fa fa-user" id="login-btn"></div>
+        <div class="fa fa-shopping-cart" id="cart-btn"></div>
+    </div>
+    <form class="search-form">
+        <input type="search" id="search-box" placeholder="search here">
+        <label for="search-box" class="fa fa-search"></label>
+    </form>
+
+
+    <!-- <div class="shopping-cart">
+        <div class="box">
+            <i class="fa fa-trash"> </i>
+            <img src="cart-img-1.png" >
+            <div content>
+                <h3>watermelon</h3>
+                <span class="price">$5.99/-</span>
+                <span class="quentity"> Qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa fa-trash"> </i>
+            <img src="cart-img-2.png" >
+            <div content>
+                <h3>Onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quentity"> Qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fa fa-trash"> </i>
+            <img src="cart-img-3.png" >
+            <div content>
+                <h3>chicken</h3>
+                <span class="price">$5.99/-</span>
+                <span class="quentity"> Qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : 15.96$ </div>
+        <a href="#" class="btn">CheckOut</a>
+    </div> -->
+
+
+    <div class="shopping-cart">
+        <!-- Dynamic items will be added here -->
+        <div class="total"> total : 0.00$ </div>
+        <a href="#" class="btn">CheckOut</a>
+      </div>
+      
+    <form action="#" class="login-form">
+        <h3>LOGIN NOW</h3>
+        <input type="email" placeholder="enter your email" class="box">
+        <input type="password" placeholder="enter your password" class="box">
+        <p>Forget Your password <a href="#"> Click here</a></p>
+        <p>Don't Have an account<a href="#"> create now</a></p>
+
+         <input type="submit" value="login-Now" class="btn">
+    </form>
+   </header> 
+   <!-- hader section end -->
+
+
+
+   <!-- banner sectiom -->
+    <section class="home" id="home" >
+        <div class="content"  >
+
+            <h3>Fresh And <span>Organic</span> Product For You </h3>
+            <p>This Website is Design our group You can buy fresh 
+                vegitables and another product.</p>
+            <a href="#features" class="btn" >Shop Now</a>
+        </div>
+    </section>
+    <!-- banner section end  -->
+
+
+    <!--  feature section -->
+    <section class="features" id="features">
+        <h1 class="heading"> our <span>features</span></h1>
+       <div class="box-container">
+        <div class="box">
+            <img src="feature-img-1.png" >
+            <h3>fresh and organic</h3>
+            <p>We take pride in offering fresh and organic products sourced directly from local farms.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="feature-img-2.png" >
+            <h3>delivery</h3>
+            <p>We ensure fast and reliable delivery to your doorstep.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+        <div class="box">
+            <img src="feature-img-3.png" >
+            <h3>payment on delivery</h3>
+            <p>We offer multiple delivery options to ensure your convenience:</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+       </div>
+    </section>
+    <!-- product section -->
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+        <div class="swiper product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="product-1.png">
+              <h1>fresh orange</h1>
+              <div class="price">$2585.99/- - 15987.99/-</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="product-2.png">
+              <h1>Onion</h1>
+              <div class="price">$10.99/- - 25.99/-</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="product-3.png">
+              <h1>fresh chicken</h1>
+              <div class="price">$11.99/- - 20.99/-</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="swiper product-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+              <img src="product-4.png">
+              <h1>fresh cabbage</h1>
+              <div class="price">$7.99/- - 10.99/-</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="product-5.png">
+              <h1>patato</h1>
+              <div class="price">$5.99/- - 10.99/-</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="swiper-slide box">
+              <img src="product-6.png">
+              <h1>fresh orange</h1>
+              <div class="price">$12.99/- - 15.99/-</div>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half"></i>
+              </div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <!-- catogery -->
+    <section class="Catogery" id="Catogery">
+        <h1 class="heading">our <span>Catogery</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="cat-1.png" >
+                <h3>vagetables</h3>
+                <p>Upto 45% off</p>
+                <a href="" class="btn"> shop now</a>
+            </div>
+            <div class="box">
+                <img src="cat-2.png" >
+                <h3>fresh fruits</h3>
+                <p>Upto 40% off</p>
+                <a href="" class="btn"> shop now</a>
+            </div>
+            <div class="box">
+                <img src="cat-3.png" >
+                <h3>milk and egg</h3>
+                <p>Upto 50% off</p>
+                <a href="" class="btn"> shop now</a>
+            </div>
+            <div class="box">
+                <img src="cat-4.png" >
+                <h3>checken</h3>
+                <p>Upto 45% off</p>
+                <a href="" class="btn"> shop now</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- review section  -->
+ 
+    <section class="Reivew" id="Reivew">
+        <h1 class="heading">  Customer <span>Reivew</span> </h1>
+         <div class="swiper Reivew-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slider box">
+                 <img src="sidda.jpg" >
+                 <p>"Absolutely love the fresh and organic produce! Everything is so flavorful and naturally delicious. Highly recommend!"</p>
+                     <h3>Sidda teja</h3>
+                     <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                </div>
+                <div class="swiper-slider box">
+                    <img src="uma.jpg" >
+                    <p>"The best organic products I’ve ever had. The quality is top-notch, and the delivery was super quick!"</p>
+                        <h3>Uma maheshwari </h3>
+                        <div class="stars">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-half"></i>
+                       </div>
+                   </div>
+                   <div class="swiper-slider box">
+                    <img src="Ayush image.jpg" >
+                    <p>"I appreciate their commitment to sustainability.
+                         It feels great to support a brand that cares about the environment!"</p>
+                
+                        <h3>Ayush singh</h3>
+                        <div class="stars">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-half"></i>
+                       </div>
+                   </div>
+                   <div class="swiper-slider box">
+                    <img src="bhavuna.jpg" >
+                    <p>"Excellent customer service and truly fresh produce.
+                         My family loves the organic fruits and vegetables!"</p>
+                        <h3>Bhuvana bachina </h3>
+                        <div class="stars">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                       </div>
+                   </div>
+
+            </div>
+
+         </div>
+    </section>
+    <!--  blog section  -->
+    <section class="Blog" id="Blog">
+       <h1 class="heading"> Our <span>Blog </span></h1>
+       <div class="box-container">
+       <div class="box">
+          <img src="blog-1.jpg" >
+          <div class="content">
+            <div class="icons">
+                <a href="#"><i class="fa fa-user"></i> By user </a>
+                <a href="#"><i class="fa fa-calendar"></i> 28/04/24 </a>
+            </div>
+            <h3> fresh and organic vegitables</h3>
+            <p>"This store offers fresh and organic vegetables that are always top quality. 
+                Everything is fresh, chemical-free, and well-stocked.
+                 Great variety at reasonable prices. Highly recommend for healthy and organic shopping!"</p>
+                 <a href="#" class="btn">Read more</a>
+          </div>
+       </div>
+       <div class="box">
+        <img src="blog-2.jpg" >
+        <div class="content">
+          <div class="icons">
+              <a href="#"><i class="fa fa-user"> </i> By user </a>
+              <a href="#"><i class="fa fa-calendar"> </i> 28/04/24 </a>
+          </div>
+          <h3> fresh and organic vegitables</h3>
+          <p>"Fresh and organic vegetables are always available here, sourced with great quality. 
+            Crisp, chemical-free, and full of natural flavor.
+             Excellent variety at fair prices.
+              A perfect place for healthy and eco-friendly shopping!"</p>
+               <a href="#" class="btn">Read more</a>
+        </div>
+     </div>
+     <div class="box">
+        <img src="blog-3.jpg" >
+        <div class="content">
+          <div class="icons">
+              <a href="#"><i class="fa fa-user"> </i> By user </a>
+              <a href="#"><i class="fa fa-calendar"> </i> 28/04/24 </a>
+          </div>
+          <h3> fresh and organic vegitables</h3>
+          <p>"Fresh and organic vegetables are always available here, sourced with great quality. 
+            Crisp, chemical-free, and full of natural flavor.
+             Excellent variety at fair prices.
+              A perfect place for healthy and eco-friendly shopping!" </p>
+               <a href="#" class="btn">Read more</a>
+        </div>
+     </div>
+    </div>
+    </section>
+    <!--  footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Groco <i class="fa fa-shopping-basket"></i></h3>
+           <p>"Groco offers fresh and organic vegetables with great quality. 
+            The store is well-stocked, affordable, and customer-friendly.
+             Shopping is easy, and the service is excellent.
+              Highly recommend for healthy grocery needs!"</p>
+             <div class="shere">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-twitter"></a>
+             </div>
+            </div>
+          
+            <div class="box">
+                <h3>contect info </h3>
+        <a href="9122643538" class="links"> <i class="fa fa-phone"></i>9122643538</a>
+        <a href="#" class="links"> <i class="fa fa-phone"></i>9030704961</a>
+        <a href="mailto:mailsinghayush5432@gmail.com" class="links">
+            <i class="fa fa-envelope"></i> mailsinghayush5432@gmail.com
+          </a>
+          
+        <a href="https://www.google.co.in/maps/place/Vadlamudi,+Andhra+Pradesh+522213/@16.2317953,80.5461359,15z/data=!3m1!4b1!4m6!3m5!1s0x3a4a094d0d6063e7:0x5f1c65477088fc3c!8m2!3d16.2355855!4d80.5605111!16s%2Fg%2F11cn6d_8sq?entry=ttu&g_ep=EgoyMDI1MDQyMS4wIKXMDSoASAFQAw%3D%3D" class="links"> <i class="fa fa-map-marker"></i>vadlamudi ,guntur ap </a>
+            </div>
+            <div class="box">
+                <h3>Quick Links </h3>
+        <a href="#" class="links"> <i class="fa fa-arrow-right"></i>Home</a>
+        <a href="#" class="links"> <i class="fa fa-arrow-right"></i>features</a>
+        <a href="#" class="links"> <i class="fa fa-arrow-right"></i>reivew</a>
+        <a href="#" class="links"> <i class="fa fa-arrow-right"></i>blogs </a>
+            </div>
+            <div class="box">
+                <h3>news box </h3>
+             <p>Subscribe For Latest Update</p>
+             <input type="emali" placeholder="Your email" class="email">
+             <input type="submit" value="Subscribe" class="btn">
+             <img src="payment.png" class="payment-img">
+            </div>
+        </div>
+       <div class="credit">Created by <span>Batch-7</span>| All Rights Reserved</div>
+    </section>
+    <script>
+        const cartContainer = document.querySelector(".shopping-cart");
+        const totalElement = cartContainer.querySelector(".total");
+        let total = 0;
+      
+        document.querySelectorAll(".products .btn").forEach(button => {
+          button.addEventListener("click", (e) => {
+            e.preventDefault();
+      
+            const productBox = e.target.closest(".box");
+            const productImg = productBox.querySelector("img").src;
+            const productName = productBox.querySelector("h1").innerText;
+            const priceText = productBox.querySelector(".price").innerText;
+            const price = parseFloat(priceText.match(/[\d.]+/)[0]); // Extract first number
+      
+            // Create new cart item
+            const newBox = document.createElement("div");
+            newBox.classList.add("box");
+            newBox.innerHTML = `
+              <i class="fa fa-trash" style="cursor: pointer;"></i>
+              <img src="${productImg}">
+              <div content>
+                <h3>${productName}</h3>
+                <span class="price">$${price.toFixed(2)}/-</span>
+                <span class="quentity"> Qty : 1</span>
+              </div>
+            `;
+      
+            // Insert before the total div
+            cartContainer.insertBefore(newBox, totalElement);
+      
+            // Update total
+            total += price;
+            totalElement.textContent = `total : ${total.toFixed(2)}$`;
+      
+            // Delete logic
+            newBox.querySelector(".fa-trash").addEventListener("click", () => {
+              newBox.remove();
+              total -= price;
+              totalElement.textContent = `total : ${total.toFixed(2)}$`;
+            });
+          });
+        });
+      </script>
+      
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="grocery.js"></script>
+</body>
+</html>
